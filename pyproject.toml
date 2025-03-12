@@ -11,7 +11,7 @@ packages = [{include = "mocogpt"}]
 mocogpt = "mocogpt.cli.app:app"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = ">=3.10,<3.13"
 aiohttp = "^3.9.5"
 tiktoken = "^0.7.0"
 click = {version = "^8.1.7", extras = ["cli"]}
@@ -21,7 +21,7 @@ loguru = {version = "^0.7.2", extras = ["cli"]}
 cli = ["click", "loguru"]
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.5.1"
+ruff = "^0.5.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.2.2"
