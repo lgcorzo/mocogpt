@@ -1214,5 +1214,5 @@ cli = ["click", "loguru"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.11,<3.12"
+python-versions = ">=3.11,<3.13"
 content-hash = "df9885d2a071e950578c5aaf3259f974d3775bd5baf7df36c67da5532035e0ed"
