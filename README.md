@@ -48,12 +48,18 @@ You can write your own configuration:
     "chat.completions": [
       {
         "request": {
-          "prompt": "Hi",
+          "prompt": "Hi"
+        },
+        "response": {
+          "content": "How can I assist you?"
+        }
+      },
+{
+        "request": {
           "prompt": "Hola"
         },
         "response": {
-          "content": "How can I assist you?",
-          "content": "Cómo puedo ayudarte?"
+          "content": "Cómo puedoe ayudarte?"
         }
       }
     ]
