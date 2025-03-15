@@ -48,11 +48,11 @@ You can write your own configuration:
     "chat.completions": [
       {
         "request": {
-          "prompt": "Hi"
+          "prompt": "Hi",
           "prompt": "Hola"
         },
         "response": {
-          "content": "How can I assist you?"
+          "content": "How can I assist you?",
           "content": "Cómo puedo ayudarte?"
         }
       }
