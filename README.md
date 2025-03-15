@@ -49,9 +49,11 @@ You can write your own configuration:
       {
         "request": {
           "prompt": "Hi"
+          "prompt": "Hola"
         },
         "response": {
           "content": "How can I assist you?"
+          "content": "Cómo puedo ayudarte?"
         }
       }
     ]
