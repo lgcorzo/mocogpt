@@ -16,6 +16,7 @@ aiohttp = "^3.9.5"
 tiktoken = "^0.8.0"
 click = {version = "^8.1.7", extras = ["cli"]}
 loguru = {version = "^0.7.2", extras = ["cli"]}
+certifi = ">=2024.8.30"
 
 [tool.poetry.extras]
 cli = ["click", "loguru"]
