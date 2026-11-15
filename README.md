@@ -1,3 +1,5 @@
+Maintained fork of [dreamhead/mocogpt](https://github.com/dreamhead/mocogpt). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: MIT.
+
 # MocoGPT
 
 MocoGPT is an GPT mock server, which can be used to test your GPT API calls.
@@ -77,4 +79,9 @@ $ mocogpt start config.json --port 12306
 
 Now, you can send a chat request to http://localhost:12306/v1.
 
+---
 
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/mocogpt/commits) and [Pull Requests](https://github.com/lgcorzo/mocogpt/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
